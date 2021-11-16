@@ -1,3 +1,7 @@
+@import "parts/variables";
 body {
-    background: yellow;
+    font-family: $main-font-family, "Arial", "Tahoma";
+    font-size: $main-font-size;
+    color: $primary-font-color;
+    line-height: $default-line-height;
 }

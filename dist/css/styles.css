@@ -1,3 +1,6 @@
 body {
-  background: yellow;
+  font-family: "Roboto", "Arial", "Tahoma";
+  font-size: 16px;
+  color: #212353;
+  line-height: 160%;
 }
