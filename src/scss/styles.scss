@@ -1,7 +1,5 @@
 @import "parts/variables";
-body {
-    font-family: $main-font-family, "Arial", "Tahoma";
-    font-size: $main-font-size;
-    color: $primary-font-color;
-    line-height: $default-line-height;
-}
+@import "parts/reset";
+@import "parts/global";
+@import "parts/blocks/header";
+@import "parts/blocks/navigation";
