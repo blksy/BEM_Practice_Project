@@ -89,6 +89,37 @@ img {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .advertising-section {
+    margin-top: 150px;
+  }
+  .advertising-section__container {
+    display: flex;
+    flex-direction: row;
+    width: 1140px;
+    align-items: center;
+    margin: 0 auto;
+    padding: 85px 70px;
+    background-color: rgba(240, 99, 184, 0.15);
+    border-radius: 50px;
+    box-sizing: border-box;
+  }
+  .advertising-section__image {
+    flex: 0 0 50%;
+    margin-right: 5%;
+  }
+  .advertising-section__header {
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0 0 40px;
+    line-height: 130%;
+  }
+  .advertising-section__content {
+    flex: 0 0 40%;
+    margin-left: 5%;
+  }
+}
+
 .page-header {
   margin-top: 50px;
 }
